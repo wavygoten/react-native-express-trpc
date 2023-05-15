@@ -1,0 +1,15 @@
+{
+	"name": "react-native-express-trpc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"frontend:dev": "cd frontend && bun start",
+		"backend:dev": "cd backend && bun run dev",
+		"start": "bun run frontend:dev & bun run backend:dev"
+	},
+	"keywords": [],
+	"author": "wavygoten",
+	"license": "ISC"
+}
